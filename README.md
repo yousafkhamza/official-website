@@ -8,17 +8,21 @@ This is a HTML based static website for my own domain "[yousafkhamza.tech](https
 ----
 ## Feature
 - HTML Static based website (Personal Profile)
-- Easy to customaisable
+- Easy to customizable
 - Easy to deploy static changes on github.
 - SSL certified
 - Downtime Depends on GitHub (SLA: 99.5%)
+- 50 Contact Form Messages (Subscription Needed for more)
+- Contact Map Location (From GCP Embaded)
 
 ----
 ## Pre-Requests
-- Need a Domain
+- Need a Domain name from any of registrar.
 - Find a template of static website ([templateflip](templateflip.com) I used this one)
 - Basic knowledge of github pages 
 - Basic knowledge of HTML Static website
+- Need a account in [formspree](https://formspree.io/) for contact form. if you're not intrested you can igonore it and it's not mandatory.
+- Need a GCP account for GeoLocation setup in your page (Not mandatory if you're not intrested you can ignore it.)
 
 ----
 ## How to Setup a GitHub Static website Look like this..
