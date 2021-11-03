@@ -10,6 +10,8 @@ This is a HTML based static website for my own domain "[yousafkhamza.tech](https
 - HTML Static based website (Personal Profile)
 - Easy to customaisable
 - Easy to deploy static changes on github.
+- SSL certified
+- Downtime Depends on GitHub (SLA: 99.5%)
 
 ----
 ## Pre-Requests
@@ -18,7 +20,18 @@ This is a HTML based static website for my own domain "[yousafkhamza.tech](https
 - Basic knowledge of github pages 
 - Basic knowledge of HTML Static website
 
----
+----
+## How to Setup a GitHub Static website Look like this..
+_Please go and walk through the official GitHub [link](https://pages.github.com/) it's an easy way to setup._
+
+----
+## My Website Output
+Please go and check that the URL of my domain: [yousafkhamza.tech](https://yousafkhamza.tech)
+
+_Complete-Screenshot_
+![alt_txt](https://i.ibb.co/dbNtbJZ/screencapture-yousafkhamza-tech-2021-11-03-07-43-53.png)
+
+----
 ## Directory Structure
 
 - css\              - Stylesheets CSS files for the template.
@@ -31,7 +44,7 @@ This is a HTML based static website for my own domain "[yousafkhamza.tech](https
 - LICENSE-*.txt     - License file as per your downloaded variant.
 - CNAME for         - GitHub Pages domain pointer
 
----
+----
 ## How to Edit the template
 
 ```
@@ -58,7 +71,7 @@ If you wish to change the name of the image file then you must
 also make corresponding change in the HTML file which refer to that image.
 ```
 
----
+----
 ## How to use the template
 ```
 Upload the contents to your webserver.
