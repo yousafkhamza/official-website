@@ -370,7 +370,7 @@
             </div>
           </div>
           <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">I have worked with Yousaf at Armia Systems and it was a unique experience. He helped me understand the company’s internal process. His work ethics are pristine, and he is easily adjustable to a given situation. His ability to go out of his way to find a solution for an ongoing issue has made him stand out. He will be a valuable asset to any company</p>
+            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">I have worked with Yousaf at Armia Systems and it was a unique experience. He helped me understand the company’s internal process. His work ethic is pristine, and he is easily adjustable to a given situation. His ability to go out of his way to find a solution for an ongoing issue has made him stand out. He will be a valuable asset to any company</p>
           </div>
         </div>
         <div class="col-md-6">
@@ -382,43 +382,81 @@
             </div>
           </div>
           <div class="d-flex"><i class="text-secondary fas fa-quote-left"></i>
-            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Yousaf is a very talented, knowledgeable and well rounded lead engineer. while working with him i was impressed with his knowledge and passion about technology. Yousaf is a key team member and i would look forward to working with him again.</p>
+            <p class="lead mx-2" data-aos="fade-left" data-aos-delay="100">Yousaf is a very talented, knowledgeable and well-rounded lead engineer. while working with him I was impressed with his knowledge and passion for technology. Yousaf is a key team member and I look forward to working with him again.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="shadow-1-strong bg-white my-5 p-5" id="contact">
-    <div class="contant-section">
-      <h2 class="h2 fw-light text mb-4">Contact</h2>
-      <div class="row mb-4">
-        <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
-          <div class="mt-1">
-            <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +91 7736720639</div>
-            <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> yousaf.k.hamza@gmail.com</div>
-          </div>
-          <div class="mt-5 d-print-none"><form action="https://formspree.io/f/xpzkgdna" method="POST">
-  <div class="form-outline mb-4">
-    <input type="text" name="Name" id="name" class="form-control" required/>
-    <label class="form-label" for="name">Name</label>
-  </div>
-  <div class="form-outline mb-4">
-    <input type="email" name="Email" id="email" class="form-control" required/>
-    <label class="form-label" for="email">Email address</label>
-  </div>
-  <div class="form-outline mb-4">
-    <textarea class="form-control" style="resize: none;" name="Message" id="message" rows="4" required></textarea>
-    <label class="form-label" for="message">Message</label>
-  </div>
-  <button class="btn btn-info btn-block mb-4" type="submit">Send</button>
-</form>
-          </div>
+<div class="shadow-1-strong bg-white my-5 p-5" id="contact">
+  <div class="contact-section">
+    <h2 class="h2 fw-light text mb-4">Contact</h2>
+    <div class="row mb-4">
+      <div class="col-md-5" data-aos="fade-left" data-aos-delay="200">
+        <div class="mt-1">
+          <div class="h6"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> +91 7736720639</div>
+          <div class="h6"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> yousaf.k.hamza@gmail.com</div>
         </div>
-        <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100"><iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJD9G9CHDDpzsRSgtLVAfe0oU&key=AIzaSyDGDEiJ7YQs-YR2Klh5eZA7rCQd8hlmfH8" width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe></div>
+        <div class="mt-5 d-print-none">
+          <!-- Email Form -->
+          <form action="mailto:yousaf.k.hamza@gmail.com" method="POST" enctype="text/plain" onsubmit="openEmail(event)">
+            <div class="form-outline mb-4">
+              <input type="text" name="Name" id="name" class="form-control" required/>
+              <label class="form-label" for="name">Name</label>
+            </div>
+            <div class="form-outline mb-4">
+              <input type="email" name="Email" id="email" class="form-control" required/>
+              <label class="form-label" for="email">Email address</label>
+            </div>
+            <div class="form-outline mb-4">
+              <textarea class="form-control" style="resize: none;" name="Message" id="message" rows="4" required></textarea>
+              <label class="form-label" for="message">Message</label>
+            </div>
+            <button class="btn btn-info btn-block mb-4" type="submit">Send via Email</button>
+          </form>
+
+          <!-- WhatsApp Form -->
+          <form onsubmit="openWhatsApp(event)">
+            <div class="form-outline mb-4">
+              <input type="text" name="Name" id="wa_name" class="form-control" required/>
+              <label class="form-label" for="wa_name">Name</label>
+            </div>
+            <div class="form-outline mb-4">
+              <textarea class="form-control" style="resize: none;" name="Message" id="wa_message" rows="4" required></textarea>
+              <label class="form-label" for="wa_message">Message</label>
+            </div>
+            <button class="btn btn-success btn-block mb-4" type="submit">Send via WhatsApp</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100">
+        <iframe src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJD9G9CHDDpzsRSgtLVAfe0oU&key=AIzaSyDGDEiJ7YQs-YR2Klh5eZA7rCQd8hlmfH8"
+          width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe>
       </div>
     </div>
   </div>
-</div></div>
+</div>
+
+<script>
+  function openEmail(event) {
+    event.preventDefault();
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    
+    const mailtoLink = `mailto:yousaf.k.hamza@gmail.com?subject=Contact from ${name}&body=Name: ${name}%0DEmail: ${email}%0DMessage: ${message}`;
+    window.location.href = mailtoLink;
+  }
+
+  function openWhatsApp(event) {
+    event.preventDefault();
+    const name = document.getElementById('wa_name').value;
+    const message = document.getElementById('wa_message').value;
+    
+    const whatsappLink = `https://wa.me/917736720639?text=Name:%20${name}%0DMessage:%20${message}`;
+    window.open(whatsappLink, '_blank');
+  }
+</script>
     </div>
     <footer class="pt-4 pb-4 text-muted text-center d-print-none">
       <div class="container">
