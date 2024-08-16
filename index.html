@@ -409,10 +409,6 @@
               <label class="form-label" for="name">Name</label>
             </div>
             <div class="form-outline mb-4">
-              <input type="email" name="Email" id="email" class="form-control" required/>
-              <label class="form-label" for="email">Email address</label>
-            </div>
-            <div class="form-outline mb-4">
               <textarea class="form-control" style="resize: none;" name="Message" id="message" rows="4" required></textarea>
               <label class="form-label" for="message">Message</label>
             </div>
@@ -448,7 +444,7 @@
     const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
     
-    const mailtoLink = `mailto:yousaf.k.hamza@gmail.com?subject=Contact from ${name}&body=Name: ${name}%0DEmail: ${email}%0DMessage: ${message}`;
+    const mailtoLink = `mailto:yousaf.k.hamza@gmail.com?subject=Contact from ${name}&body=Name: ${name}%0DMessage: ${message}`;
     window.location.href = mailtoLink;
   }
 
