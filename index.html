@@ -404,15 +404,15 @@
         <div class="mt-5 d-print-none">
           <!-- Email Form -->
           <form action="mailto:yousaf.k.hamza@gmail.com" method="POST" enctype="text/plain" onsubmit="openEmail(event)">
-            <div class="form-outline mb-4">
-              <input type="text" name="Name" id="name" class="form-control" required/>
-              <label class="form-label" for="name">Name</label>
-            </div>
-            <div class="form-outline mb-4">
-              <textarea class="form-control" style="resize: none;" name="Message" id="message" rows="4" required></textarea>
-              <label class="form-label" for="message">Message</label>
-            </div>
-            <button class="btn btn-info btn-block mb-4" type="submit">Send via Email</button>
+          <div class="form-outline mb-4">
+            <input type="text" name="Name" id="name" class="form-control" required />
+            <label class="form-label" for="name">Name</label>
+          </div>
+          <div class="form-outline mb-4">
+            <textarea class="form-control" style="resize: none;" name="Message" id="message" rows="4" required></textarea>
+            <label class="form-label" for="message">Message</label>
+          </div>
+            <button class="btn btn-info btn-block mb-4" type="submit" onclick="openEmail(event)">Send via Email</button>
           </form>
 
           <!-- WhatsApp Form -->
@@ -441,10 +441,10 @@
   function openEmail(event) {
     event.preventDefault();
     const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
     const message = document.getElementById('message').value;
     
     const mailtoLink = `mailto:yousaf.k.hamza@gmail.com?subject=Contact from ${name}&body=Name: ${name}%0DMessage: ${message}`;
+    
     window.location.href = mailtoLink;
   }
 
